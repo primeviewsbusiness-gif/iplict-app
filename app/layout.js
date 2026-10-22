@@ -3,6 +3,10 @@ import React from 'react';
 export const metadata = {
   title: 'IPLICT - Portal Imobiliário Inteligente | Porto Alegre',
   description: 'Plataforma imobiliária com inteligência de dados de ITBI real, transparência e triagem de perfil em Porto Alegre.',
+  metadataBase: new URL('https://www.iplict.com'),
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function RootLayout({ children }) {
