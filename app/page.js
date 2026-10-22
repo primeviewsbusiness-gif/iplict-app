@@ -1,5 +1,5 @@
 'use client';
-
+// Rebuild de produção com as configurações atuais da Vercel.
 import React from 'react';
 
 export default function Page() {
